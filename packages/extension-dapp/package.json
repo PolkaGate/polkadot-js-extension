@@ -21,7 +21,8 @@
   "version": "0.46.7-1-x",
   "main": "index.js",
   "dependencies": {
-    "@polkadot/extension-inject": "0.46.7-1-x",
+    "@polkadot/extension-inject": "latest",
+    "@polkadot/types": "^10.11.2",
     "@polkadot/util": "^12.6.2",
     "@polkadot/util-crypto": "^12.6.2",
     "tslib": "^2.6.2"

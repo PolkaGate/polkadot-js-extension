@@ -1095,7 +1095,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@polkadot/extension-dapp@workspace:packages/extension-dapp"
   dependencies:
-    "@polkadot/extension-inject": "npm:0.46.7-1-x"
+    "@polkadot/extension-inject": "npm:latest"
+    "@polkadot/types": "npm:^10.11.2"
     "@polkadot/util": "npm:^12.6.2"
     "@polkadot/util-crypto": "npm:^12.6.2"
     tslib: "npm:^2.6.2"
@@ -1124,6 +1125,24 @@ __metadata:
     "@polkadot/util": "*"
   languageName: unknown
   linkType: soft
+
+"@polkadot/extension-inject@npm:latest":
+  version: 0.46.6
+  resolution: "@polkadot/extension-inject@npm:0.46.6"
+  dependencies:
+    "@polkadot/api": "npm:^10.11.1"
+    "@polkadot/rpc-provider": "npm:^10.11.1"
+    "@polkadot/types": "npm:^10.11.1"
+    "@polkadot/util": "npm:^12.6.1"
+    "@polkadot/util-crypto": "npm:^12.6.1"
+    "@polkadot/x-global": "npm:^12.6.1"
+    tslib: "npm:^2.6.2"
+  peerDependencies:
+    "@polkadot/api": "*"
+    "@polkadot/util": "*"
+  checksum: 1dd833b8d0e6852c9217a639e159de92ab90ab64f8068081d264007fe36a15fd7b5b876ac3de28c18733ccc564bbb2509649ad3993f500d65b210640a6a2041f
+  languageName: node
+  linkType: hard
 
 "@polkadot/extension-mocks@npm:0.46.7-1-x, @polkadot/extension-mocks@workspace:packages/extension-mocks":
   version: 0.0.0-use.local
@@ -1354,7 +1373,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/rpc-provider@npm:10.11.2, @polkadot/rpc-provider@npm:^10.11.2":
+"@polkadot/rpc-provider@npm:10.11.2, @polkadot/rpc-provider@npm:^10.11.1, @polkadot/rpc-provider@npm:^10.11.2":
   version: 10.11.2
   resolution: "@polkadot/rpc-provider@npm:10.11.2"
   dependencies:
@@ -1637,7 +1656,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/x-global@npm:12.6.2, @polkadot/x-global@npm:^12.6.2":
+"@polkadot/x-global@npm:12.6.2, @polkadot/x-global@npm:^12.6.1, @polkadot/x-global@npm:^12.6.2":
   version: 12.6.2
   resolution: "@polkadot/x-global@npm:12.6.2"
   dependencies:
