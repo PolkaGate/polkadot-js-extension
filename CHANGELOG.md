@@ -1,8 +1,29 @@
 # CHANGELOG
 
+## 0.46.8 Mar 13, 2024
+
 - **Important** Not published to the stores, aligns with latest released packages.
 
+Changes:
+
+- Upgrade to `@polkadot/api` 10.12.2
+- Upgrade to `@polkadot/phishing` 0.22.3
+
+
+## 0.46.7 Feb 28, 2024
+
+- **Important** Not published to the stores, aligns with latest released packages.
+
+Changes:
+
+- Upgrade to `@polkadot/api` 10.11.2
+- Upgrade to `@polkadot/ui` 3.6.5
+- Upgrade to `@polkadot/phishing` 0.22.2
+
+
 ## 0.46.6 Nov 18, 2023
+
+- **Important** Not published to the stores, aligns with latest released packages.
 
 Changes:
 
